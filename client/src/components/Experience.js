@@ -11,7 +11,7 @@ const Experience = () => {
         {/* Education Section */}
         <div className="lg:col-span-5 space-y-12">
           <div>
-            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Học Vấn</h2>
+            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Education</h2>
             <div className="w-12 h-[1px] bg-[#7b5455]"></div>
           </div>
           <div className="relative pl-8 border-l border-[#7b5455]/20 space-y-12">
@@ -23,13 +23,13 @@ const Experience = () => {
                 2023 - 2027
               </span>
               <h3 className="font-display text-xl text-[#1a1c1a] mb-1">
-                Trường Đại học Ngoại thương (FTU)
+                Foreign Trade University (FTU)
               </h3>
-              <p className="font-body text-base text-[#685b5c] mb-2 font-semibold">
-                Quản trị Kinh Doanh Quốc Tế
+              <p className="font-body text-base text-[#685b5c] mb-2 font-semibold font-body">
+                Bachelor of International Business Administration
               </p>
               <p className="font-body text-sm text-[#504444] mb-3">
-                Chương trình Chất lượng cao giảng dạy 100% bằng tiếng Anh
+                High-Quality Program (100% taught in English)
               </p>
               <span className="inline-flex items-center px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
                 GPA: 3.66 / 4.0
@@ -43,13 +43,13 @@ const Experience = () => {
                 2023 - 2025
               </span>
               <h3 className="font-display text-xl text-[#1a1c1a] mb-1">
-                Chứng Chỉ Tiếng Anh
+                Language Proficiency
               </h3>
               <p className="font-body text-base text-[#685b5c] mb-2 font-semibold">
                 IELTS 7.0 (Certified by IDP)
               </p>
               <p className="font-body text-sm text-[#504444] leading-relaxed">
-                Sử dụng thành thạo tiếng Anh học thuật và giao tiếp thương mại trong môi trường làm việc quốc tế.
+                Proficient in academic English and professional corporate communication in global environments.
               </p>
             </div>
             
@@ -59,7 +59,7 @@ const Experience = () => {
         {/* Experience Section */}
         <div className="lg:col-span-7 space-y-12">
           <div>
-            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Kinh Nghiệm</h2>
+            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Experience</h2>
             <div className="w-12 h-[1px] bg-[#7b5455]"></div>
           </div>
           <div className="relative pl-8 border-l border-[#7b5455]/20 space-y-12">
@@ -68,43 +68,43 @@ const Experience = () => {
             <div className="relative glass-card p-6 rounded-xl -ml-6 border border-[#7b5455]/10 shadow-[0_10px_40px_rgba(107,91,91,0.04)]">
               <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#7b5455] rounded-full shadow-[0_0_10px_rgba(123,84,85,0.5)]"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
-                2026 - Hiện tại
+                2026 - Present
               </span>
-              <h3 className="font-display text-2xl text-[#1a1c1a] mb-1">Thực tập sinh Vận hành</h3>
+              <h3 className="font-display text-2xl text-[#1a1c1a] mb-1">Operations Intern</h3>
               <p className="font-body text-base text-[#685b5c] mb-4 font-semibold">
-                Công ty Cổ phần LynkID (Hệ sinh thái VPBank) — Phòng Vận hành
+                LynkID Joint Stock Company (VPBank Ecosystem) — Operations Dept.
               </p>
               
               <div className="space-y-4 font-body text-sm text-[#504444] leading-relaxed mb-6">
                 <div>
-                  <strong className="text-[#7b5455]">Đối soát tài chính &amp; Xử lý dữ liệu đa nền tảng:</strong>
+                  <strong className="text-[#7b5455]">Financial Reconciliation &amp; Multi-Platform Data Processing:</strong>
                   <ul className="list-disc pl-5 mt-1 space-y-1">
-                    <li>Thực hiện quy trình đối soát dữ liệu giao dịch từ hệ thống nội bộ, các cổng thanh toán và đối tác liên kết.</li>
-                    <li>Phân tích và đối chiếu các tệp dữ liệu lớn để đảm bảo tính đồng nhất, kịp thời phát hiện sai sót và giao dịch lỗi.</li>
+                    <li>Responsible for reconciling transaction data across internal systems, payment gateways, and affiliate partners.</li>
+                    <li>Analyzed and matched large datasets to ensure consistency, proactively identifying discrepancies or transaction errors.</li>
                   </ul>
                 </div>
                 <div>
-                  <strong className="text-[#7b5455]">Quản lý hồ sơ thanh toán &amp; Quan hệ đối tác:</strong>
+                  <strong className="text-[#7b5455]">Payment Records &amp; Partner Relations:</strong>
                   <ul className="list-disc pl-5 mt-1 space-y-1">
-                    <li>Đối soát và chuẩn bị hồ sơ thanh toán định kỳ cho mạng lưới 100+ đối tác trong hệ sinh thái Loyalty.</li>
-                    <li>Trực tiếp làm việc với đại diện đối tác để làm rõ sai lệch số liệu và đảm bảo thanh toán đúng hạn.</li>
+                    <li>Managed and prepared periodic payment records for a network of 100+ loyalty ecosystem partners.</li>
+                    <li>Actively communicated and coordinated with partner representatives to resolve billing queries and document discrepancies.</li>
                   </ul>
                 </div>
                 <div>
-                  <strong className="text-[#7b5455]">Tối ưu hóa &amp; Kết quả:</strong>
+                  <strong className="text-[#7b5455]">Process Optimization &amp; Key Results:</strong>
                   <ul className="list-disc pl-5 mt-1 space-y-1">
-                    <li>Hoàn thành đúng hạn 100% hồ sơ thanh toán mỗi kỳ đối soát với tỷ lệ chính xác tuyệt đối.</li>
-                    <li>Áp dụng nguyên tắc Horenso hiệu quả, giúp giảm đáng kể thời gian chờ đợi xử lý hồ sơ.</li>
+                    <li>Disbursed payment records with absolute accuracy and strictly met deadlines for 100+ loyalty partners every cycle.</li>
+                    <li>Effectively applied Horenso principles in cross-team reporting to optimize document processing speed.</li>
                   </ul>
                 </div>
               </div>
 
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
-                  Đối Soát Dữ Liệu
+                  Data Reconciliation
                 </span>
                 <span className="px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
-                  Quản Lý Hồ Sơ
+                  Document Management
                 </span>
                 <span className="px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
                   Horenso
@@ -116,20 +116,20 @@ const Experience = () => {
             <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
               <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
-                2023 - Hiện tại
+                2023 - Present
               </span>
-              <h3 className="font-display text-xl text-[#1a1c1a] mb-1">Quản lý nhóm học tập &amp; Đào tạo</h3>
+              <h3 className="font-display text-xl text-[#1a1c1a] mb-1">Academic Lead &amp; Group Trainer</h3>
               <ul className="list-disc pl-5 mt-3 space-y-1 font-body text-sm text-[#504444] leading-relaxed mb-4">
-                <li>Thiết lập lộ trình đào tạo cá nhân hóa cho nhóm 3-5 học viên, đảm bảo mục tiêu đầu ra đúng kế hoạch.</li>
-                <li>Xây dựng hệ thống đánh giá định kỳ để đo lường sự tiến bộ, điều chỉnh linh hoạt phương pháp giảng dạy.</li>
-                <li>Có khả năng đơn giản hóa các khái niệm, quy trình phức tạp giúp học viên tiếp thu tối ưu nhất.</li>
+                <li>Designed personalized academic plans for groups of 3-5 students, ensuring milestones and learning outcomes.</li>
+                <li>Conducted monthly assessments to measure performance and adapt pedagogical methods.</li>
+                <li>Simplified complex academic concepts and business processes into easily digestible learning modules.</li>
               </ul>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#e3e2e0] text-[#504444] rounded font-body text-xs">
-                  Đào Tạo
+                  Training
                 </span>
                 <span className="px-3 py-1 bg-[#e3e2e0] text-[#504444] rounded font-body text-xs">
-                  Lập Lộ Trình
+                  Roadmapping
                 </span>
               </div>
             </div>
@@ -140,17 +140,17 @@ const Experience = () => {
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - 2025
               </span>
-              <h3 className="font-display text-xl text-[#1a1c1a] mb-1">Trợ giảng Tiếng Anh</h3>
+              <h3 className="font-display text-xl text-[#1a1c1a] mb-1">English Teaching Assistant</h3>
               <ul className="list-disc pl-5 mt-3 space-y-1 font-body text-sm text-[#504444] leading-relaxed mb-4">
-                <li>Quản lý vận hành lớp học sĩ số 12-18 học viên, chuẩn bị học liệu đảm bảo trải nghiệm tốt nhất.</li>
-                <li>Theo dõi chuyên cần, chấm bài và cập nhật báo cáo tiến độ học tập định kỳ cho phụ huynh.</li>
+                <li>Managed classroom operations for classes of 12-18 students, preparing materials and assets to guarantee optimal learning experiences.</li>
+                <li>Tracked attendance, graded assignments, and reported regular student progress to teachers and parents.</li>
               </ul>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#e3e2e0] text-[#504444] rounded font-body text-xs">
-                  Vận Hành Lớp Học
+                  Class Operations
                 </span>
                 <span className="px-3 py-1 bg-[#e3e2e0] text-[#504444] rounded font-body text-xs">
-                  Báo Cáo Tiến Độ
+                  Progress Reporting
                 </span>
               </div>
             </div>
@@ -159,20 +159,20 @@ const Experience = () => {
             <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
               <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
-                2020 - Hiện tại
+                2020 - Present
               </span>
-              <h3 className="font-display text-xl text-[#1a1c1a] mb-1">Bí thư Chi đoàn &amp; Điều phối hoạt động</h3>
-              <p className="font-body text-sm text-[#685b5c] mb-3">Trường THPT Chuyên KHXH&NV &amp; Trường Đại học Ngoại thương</p>
+              <h3 className="font-display text-xl text-[#1a1c1a] mb-1">Class Secretary &amp; Event Coordinator</h3>
+              <p className="font-body text-sm text-[#685b5c] mb-3">High School for Social Sciences and Humanities &amp; Foreign Trade University</p>
               <ul className="list-disc pl-5 space-y-1 font-body text-sm text-[#504444] leading-relaxed mb-4">
-                <li>Quản trị, xây dựng kế hoạch và trực tiếp điều phối sự kiện quy mô lớp/khoa đúng tiến độ và ngân sách.</li>
-                <li>Đóng vai trò cầu nối thông tin giữa nhà trường và sinh viên; giải quyết nhanh các vấn đề phát sinh.</li>
+                <li>Planned, managed, and executed class/department-scale events and programs on-schedule and within budget.</li>
+                <li>Served as the primary liaison between faculty and students, swiftly resolving operational bottlenecks.</li>
               </ul>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-[#e3e2e0] text-[#504444] rounded font-body text-xs">
-                  Điều Phối Sự Kiện
+                  Event Management
                 </span>
                 <span className="px-3 py-1 bg-[#e3e2e0] text-[#504444] rounded font-body text-xs">
-                  Truyền Thông
+                  Communications
                 </span>
               </div>
             </div>

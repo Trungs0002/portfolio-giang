@@ -3,29 +3,29 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Nghiệp Vụ & Vận Hành',
+      title: 'Operations & Administration',
       skills: [
-        { name: 'Quản lý hồ sơ & chứng từ thanh toán', level: 95 },
-        { name: 'Quản trị quan hệ đối tác', level: 92 },
-        { name: 'Tổ chức & điều phối sự kiện', level: 90 },
-        { name: 'Sử dụng tiếng Anh chuyên môn', level: 90 }
+        { name: 'Payment Records & Document Management', level: 95 },
+        { name: 'Partner Relationship Management', level: 92 },
+        { name: 'Event Coordination & Organization', level: 90 },
+        { name: 'Professional English Communication', level: 90 }
       ]
     },
     {
-      title: 'Công Cụ & Nền Tảng',
+      title: 'Digital Tools & Platforms',
       skills: [
         { name: 'Microsoft PowerPoint / Excel / Word', level: 92 },
         { name: 'Google Workspace', level: 95 },
-        { name: 'Canva (Thiết kế & Sáng tạo)', level: 88 }
+        { name: 'Canva (Design & Creativity)', level: 88 }
       ]
     },
     {
-      title: 'Tư Duy & Kỹ Năng Mềm',
+      title: 'Mindset & Soft Skills',
       skills: [
-        { name: 'Chủ động trong công việc', level: 95 },
-        { name: 'Tư duy tổ chức & sắp xếp công việc', level: 93 },
-        { name: 'Tư duy giải quyết vấn đề', level: 92 },
-        { name: 'Khả năng học hỏi & thích nghi nhanh', level: 95 }
+        { name: 'Proactive Work Attitude', level: 95 },
+        { name: 'Organizational & Planning Skills', level: 93 },
+        { name: 'Problem-Solving Mindset', level: 92 },
+        { name: 'Rapid Learning & Adaptability', level: 95 }
       ]
     }
   ];
@@ -37,10 +37,10 @@ const Skills = () => {
     >
       <div className="max-w-[1200px] mx-auto space-y-16">
         <div className="text-center space-y-4">
-          <h2 className="font-display text-4xl text-[#1a1c1a]">Năng Lực Chuyên Môn</h2>
+          <h2 className="font-display text-4xl text-[#1a1c1a]">Professional Skill Set</h2>
           <div className="w-12 h-[1px] bg-[#7b5455] mx-auto"></div>
           <p className="font-body text-base text-[#504444] max-w-2xl mx-auto leading-relaxed">
-            Tổng quan các kỹ năng nghiệp vụ vận hành, thành thạo công cụ văn phòng và các khía cạnh tư duy giải quyết vấn đề cốt lõi.
+            A comprehensive overview of my core operations capabilities, tool proficiencies, and systematic soft skill mindset.
           </p>
         </div>
 

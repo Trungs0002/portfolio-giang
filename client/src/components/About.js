@@ -4,24 +4,24 @@ const About = () => {
   const values = [
     {
       icon: 'account_tree',
-      title: 'Vận hành & Đối soát',
-      description: 'Đối chiếu và xử lý dữ liệu giao dịch đa nền tảng với tính chính xác tuyệt đối.'
+      title: 'Operations & Reconciliations',
+      description: 'Reconciling and processing transaction data across multiple platforms with absolute precision.'
     },
     {
       icon: 'public',
-      title: 'Kinh doanh Quốc tế',
-      description: 'Tư duy hệ thống toàn cầu, được đào tạo bài bản bằng Tiếng Anh tại Đại học Ngoại thương.',
+      title: 'International Business',
+      description: 'Systematic global mindset, fully educated in English at Foreign Trade University (FTU).',
       offset: true
     },
     {
       icon: 'diversity_3',
-      title: 'Điều phối & Lãnh đạo',
-      description: 'Bí thư Chi đoàn năng động, quản trị kế hoạch và điều phối hoạt động tập thể xuất sắc.'
+      title: 'Coordination & Leadership',
+      description: 'Dynamic Class Secretary with excellent event management and collective coordination skills.'
     },
     {
       icon: 'receipt_long',
-      title: 'Hồ sơ & Chứng từ',
-      description: 'Khả năng quản lý và chuẩn bị hồ sơ thanh toán, làm việc với hơn 100+ đối tác chuyên nghiệp.',
+      title: 'Records & Documents',
+      description: 'Capable of managing and preparing payment records for a network of 100+ professional partners.',
       offset: true
     }
   ];
@@ -33,13 +33,13 @@ const About = () => {
     >
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-5 space-y-6">
-          <h2 className="font-display text-4xl text-[#1a1c1a]">Giới Thiệu</h2>
+          <h2 className="font-display text-4xl text-[#1a1c1a]">About Me</h2>
           <div className="w-12 h-[1px] bg-[#7b5455]"></div>
           <p className="font-body text-base text-[#504444] leading-relaxed">
-            Tôi là sinh viên năm cuối chuyên ngành Kinh doanh quốc tế tại <strong className="font-semibold text-[#1a1c1a]">Trường Đại học Ngoại thương (FTU)</strong> với tư duy hệ thống sắc bén và thế mạnh nổi bật trong mảng vận hành & đối soát dữ liệu.
+            I am a senior student majoring in International Business at <strong className="font-semibold text-[#1a1c1a]">Foreign Trade University (FTU)</strong>, equipped with a systematic mindset and a strong track record in operations and data reconciliations.
           </p>
           <p className="font-body text-base text-[#504444] leading-relaxed">
-            Bên cạnh khả năng xử lý hồ sơ chứng từ thanh toán chuyên nghiệp cho mạng lưới hơn 100+ đối tác, tôi còn sử dụng thành thạo tiếng Anh trong học tập và công việc, luôn chủ động và linh hoạt thích ứng trong môi trường doanh nghiệp năng động.
+            Alongside my professional capability in managing transaction records and payment documents for a network of 100+ partners, I possess high English proficiency in both academic and corporate environments, combined with proactive problem-solving agility.
           </p>
         </div>
         <div className="lg:col-span-6 lg:col-start-7 grid grid-cols-1 sm:grid-cols-2 gap-4">

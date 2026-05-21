@@ -40,9 +40,9 @@ const Contact = () => {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
         <div className="space-y-8">
           <div>
-            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Liên Hệ</h2>
+            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Contact Me</h2>
             <p className="font-body text-base text-[#504444] leading-relaxed">
-              Tôi luôn sẵn sàng đón nhận các cơ hội thực tập, hợp tác công việc hoặc thảo luận về mảng vận hành đối soát dữ liệu và tối ưu hóa hệ thống.
+              I am currently open to internship opportunities, professional collaborations, or conversations about operations, data reconciliations, and process optimization.
             </p>
           </div>
           
@@ -64,7 +64,7 @@ const Contact = () => {
                 <span className="material-symbols-outlined">phone</span>
               </div>
               <div>
-                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Số Điện Thoại</span>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Phone Number</span>
                 <span className="font-body text-base text-[#1a1c1a] group-hover:text-[#7b5455] transition-colors duration-300">
                   0865 112 195
                 </span>
@@ -76,7 +76,7 @@ const Contact = () => {
                 <span className="material-symbols-outlined">cake</span>
               </div>
               <div>
-                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Ngày Sinh</span>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Date of Birth</span>
                 <span className="font-body text-base text-[#1a1c1a]">
                   02/03/2005
                 </span>

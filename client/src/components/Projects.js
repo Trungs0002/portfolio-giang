@@ -8,10 +8,10 @@ const Projects = () => {
     >
       <div className="max-w-[1000px] mx-auto space-y-16">
         <div className="text-center space-y-4">
-          <h2 className="font-display text-4xl text-[#1a1c1a]">Dự Án Nổi Bật</h2>
+          <h2 className="font-display text-4xl text-[#1a1c1a]">Featured Project</h2>
           <div className="w-12 h-[1px] bg-[#7b5455] mx-auto"></div>
           <p className="font-body text-base text-[#504444] max-w-xl mx-auto leading-relaxed">
-            Dự án nghiên cứu nổi bật về mô hình kinh tế tuần hoàn và chuỗi cung ứng thời trang bền vững.
+            A selected academic research project on circular economy and sustainable fashion supply chain.
           </p>
         </div>
 
@@ -33,14 +33,14 @@ const Projects = () => {
             </span>
             <h3 className="font-display text-3xl text-[#1a1c1a] leading-tight">LOOM Denim</h3>
             <p className="font-body text-base text-[#504444] leading-relaxed">
-              Dự án nghiên cứu thời trang bền vững tập trung vào việc áp dụng các nguyên tắc kinh tế tuần hoàn và xây dựng chuỗi cung ứng minh bạch, giảm thiểu tác động môi trường.
+              A sustainable fashion research project focused on applying circular economy principles, establishing supply chain transparency, and minimizing environmental impact.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               <span className="px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
-                Kinh Tế Tuần Hoàn
+                Circular Economy
               </span>
               <span className="px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
-                Chuỗi Cung Ứng
+                Supply Chain
               </span>
             </div>
           </div>

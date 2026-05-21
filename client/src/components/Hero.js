@@ -18,7 +18,7 @@ const Hero = () => {
             </h1>
           </div>
           <p className="font-body text-lg md:text-xl text-[#504444] max-w-lg leading-relaxed">
-            Kinh doanh Quốc tế (FTU) | Vận hành & Đối soát | Trợ giảng & Đào tạo
+            International Business (FTU) | Operations & Reconciliations | Academic Tutoring & Training
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <a 
