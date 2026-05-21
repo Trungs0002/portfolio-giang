@@ -19,11 +19,9 @@ const DownloadCV = () => {
           <div className="pt-4">
             <a 
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#7b5455] text-white rounded font-body text-sm font-semibold hover:bg-[#603d3e] hover:shadow-lg hover:-translate-y-1 transition-all duration-300" 
-              href="#download"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('Curriculum Vitae download simulated successfully!');
-              }}
+              href="https://drive.google.com/file/d/1ceRcqw78qt12A-C8zacXC_YymwKe1H4s/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               <span className="material-symbols-outlined">download</span>
               Download My CV
