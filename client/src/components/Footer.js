@@ -14,14 +14,14 @@ const Footer = () => {
         </button>
 
         <div className="flex items-center gap-6">
-          <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="https://linkedin.com/in/minhgiang" target="_blank" rel="noreferrer">
+          <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="https://www.linkedin.com/in/minh-giang-nguy%E1%BB%85n-a3780b410/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
           <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="mailto:minhgiang2357@gmail.com">
             Email
           </a>
-          <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="https://instagram.com" target="_blank" rel="noreferrer">
-            Instagram
+          <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="https://www.facebook.com/nguyenminh.giang.395/" target="_blank" rel="noreferrer">
+            Facebook
           </a>
         </div>
 

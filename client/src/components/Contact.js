@@ -83,14 +83,26 @@ const Contact = () => {
               </div>
             </div>
             
-            <a className="flex items-center gap-4 group" href="https://linkedin.com/in/minhgiang" target="_blank" rel="noreferrer">
+            <a className="flex items-center gap-4 group" href="https://www.linkedin.com/in/minh-giang-nguy%E1%BB%85n-a3780b410/" target="_blank" rel="noreferrer">
               <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455] group-hover:bg-[#d4a5a5] group-hover:text-white transition-all duration-300">
                 <span className="material-symbols-outlined">work</span>
               </div>
               <div>
                 <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">LinkedIn</span>
                 <span className="font-body text-base text-[#1a1c1a] group-hover:text-[#7b5455] transition-colors duration-300">
-                  linkedin.com/in/minhgiang
+                  linkedin.com/in/minh-giang-nguyen
+                </span>
+              </div>
+            </a>
+
+            <a className="flex items-center gap-4 group" href="https://www.facebook.com/nguyenminh.giang.395/" target="_blank" rel="noreferrer">
+              <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455] group-hover:bg-[#d4a5a5] group-hover:text-white transition-all duration-300">
+                <span className="material-symbols-outlined">group</span>
+              </div>
+              <div>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Facebook</span>
+                <span className="font-body text-base text-[#1a1c1a] group-hover:text-[#7b5455] transition-colors duration-300">
+                  facebook.com/nguyenminh.giang.395
                 </span>
               </div>
             </a>
