@@ -23,7 +23,7 @@ const Projects = () => {
             <img 
               alt="LOOM Denim Thumbnail" 
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 absolute inset-0" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlmFOCzATfSNwui5JEbsZspmsGNfIy9PNyAy4OolIDeR28277_m7riSQHepkuGsjd-htSQhqwxmUem9Q-6Zn9-2PQ7QjzA0QhEKM-ZuemK9CXtoVjq9NbYCUn1MIQ5-9Z3PM4RXl9DmBbI6ozr_aHtoNp8Lp6nxBnRYFC_Oo_iZMoePCAC6XtU4ch2UgxMkhchQ8ZD8YaDW1sBVuBYg7MS-DmYPHc--IKv2sVNpP4WIVz6qB7owvCO6I8quASF9h5l6Vsx0tGvrqm4"
+              src="/loom.png"
             />
           </div>
           {/* Content Part */}
