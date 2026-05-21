@@ -48,7 +48,7 @@ const Hero = () => {
             <img 
               alt="Nguyen Minh Giang Portrait" 
               className="w-full h-full object-cover" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLCMlbiyOHpSvbDV6zLm6Ffy7deehqakch8uzhzja0-GJm4lVDZrkhheVwiuzzEg8glvDCG9TZy7CnYlkVLoCBslDs990mafm4TG7Q8LBNz1vDs2Fs3cC042ozuhnJrJZIkMlD1S8FAYbi0LuyXkiyj9coP0Mthyofq06YUHcZlBKUyf3Oiqs7IeIJc670WsVJrwf2BnntLZQwaHUdH040jXeFyKX7eLnwhEbnKziKCeM39KU5JWDioiW-d6R1NExekODvDFfXFCgd"
+              src="/Avatar.png"
             />
           </div>
           {/* Decorative Blur */}
