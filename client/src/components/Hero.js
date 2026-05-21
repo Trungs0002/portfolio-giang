@@ -12,9 +12,9 @@ const Hero = () => {
             <h2 className="font-body text-sm font-semibold text-[#7b5455] tracking-widest uppercase">
               Portfolio & Curriculum Vitae
             </h2>
-            <h1 className="font-display text-5xl md:text-7xl text-[#7b5455] leading-[1.1] tracking-tight">
+            <h1 className="font-display text-5xl md:text-7xl text-[#7b5455] leading-[1.1] tracking-tight italic">
               Nguyen Minh
-              <span className="block italic mt-3 md:mt-5">Giang</span>
+              <span className="block mt-3 md:mt-5">Giang</span>
             </h1>
           </div>
           <p className="font-body text-lg md:text-xl text-[#504444] max-w-lg leading-relaxed">
