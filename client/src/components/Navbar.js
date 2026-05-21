@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 
+const navItems = [
+  { label: 'Home', href: '#home', id: 'home' },
+  { label: 'About', href: '#about', id: 'about' },
+  { label: 'Projects', href: '#projects', id: 'projects' },
+  { label: 'Skills', href: '#skills', id: 'skills' },
+  { label: 'Experience', href: '#experience', id: 'experience' },
+  { label: 'Contact', href: '#contact', id: 'contact' }
+];
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-
-  const navItems = [
-    { label: 'Home', href: '#home', id: 'home' },
-    { label: 'About', href: '#about', id: 'about' },
-    { label: 'Projects', href: '#projects', id: 'projects' },
-    { label: 'Skills', href: '#skills', id: 'skills' },
-    { label: 'Experience', href: '#experience', id: 'experience' },
-    { label: 'Contact', href: '#contact', id: 'contact' }
-  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,16 +36,14 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#faf9f6]/70 backdrop-blur-md border-b border-[#685b5c]/10 shadow-[0_10px_40px_rgba(107,91,91,0.08)] transition-all duration-300 ease-in-out">
       <div className="flex justify-between items-center px-6 md:px-16 py-6 max-w-[1200px] mx-auto">
-        <a 
-          className="font-display text-2xl font-medium text-[#7b5455] tracking-tighter hover:opacity-80 transition-opacity duration-300" 
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
+        <button 
+          className="font-display text-2xl font-medium text-[#7b5455] tracking-tighter hover:opacity-80 transition-opacity duration-300 focus:outline-none" 
+          onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
         >
           Minh Giang
-        </a>
+        </button>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6">
