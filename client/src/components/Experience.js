@@ -18,7 +18,7 @@ const Experience = () => {
             
             {/* FTU */}
             <div className="relative">
-              <div className="absolute -left-[37px] top-1 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+              <div className="absolute -left-[38px] top-[6px] w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - 2027
               </span>
@@ -38,7 +38,7 @@ const Experience = () => {
 
             {/* IELTS */}
             <div className="relative">
-              <div className="absolute -left-[37px] top-1 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+              <div className="absolute -left-[38px] top-[6px] w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - 2025
               </span>
@@ -66,7 +66,7 @@ const Experience = () => {
             
             {/* LynkID */}
             <div className="relative glass-card p-6 rounded-xl -ml-6 border border-[#7b5455]/10 shadow-[0_10px_40px_rgba(107,91,91,0.04)]">
-              <div className="absolute -left-[26px] top-8 w-3 h-3 bg-[#7b5455] rounded-full shadow-[0_0_10px_rgba(123,84,85,0.5)]"></div>
+              <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#7b5455] rounded-full shadow-[0_0_10px_rgba(123,84,85,0.5)]"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2026 - Hiện tại
               </span>
@@ -114,7 +114,7 @@ const Experience = () => {
 
             {/* Teaching / Training */}
             <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
-              <div className="absolute -left-[26px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+              <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - Hiện tại
               </span>
@@ -136,7 +136,7 @@ const Experience = () => {
 
             {/* TA */}
             <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
-              <div className="absolute -left-[26px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+              <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - 2025
               </span>
@@ -157,7 +157,7 @@ const Experience = () => {
 
             {/* Secretary */}
             <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
-              <div className="absolute -left-[26px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+              <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2020 - Hiện tại
               </span>

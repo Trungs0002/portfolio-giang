@@ -36,7 +36,7 @@ const About = () => {
           <h2 className="font-display text-4xl text-[#1a1c1a]">Giới Thiệu</h2>
           <div className="w-12 h-[1px] bg-[#7b5455]"></div>
           <p className="font-body text-base text-[#504444] leading-relaxed">
-            Tôi là sinh viên năm cuối chuyên ngành Kinh doanh quốc tế tại **Trường Đại học Ngoại thương (FTU)** với tư duy hệ thống sắc bén và thế mạnh nổi bật trong mảng vận hành & đối soát dữ liệu.
+            Tôi là sinh viên năm cuối chuyên ngành Kinh doanh quốc tế tại <strong className="font-semibold text-[#1a1c1a]">Trường Đại học Ngoại thương (FTU)</strong> với tư duy hệ thống sắc bén và thế mạnh nổi bật trong mảng vận hành & đối soát dữ liệu.
           </p>
           <p className="font-body text-base text-[#504444] leading-relaxed">
             Bên cạnh khả năng xử lý hồ sơ chứng từ thanh toán chuyên nghiệp cho mạng lưới hơn 100+ đối tác, tôi còn sử dụng thành thạo tiếng Anh trong học tập và công việc, luôn chủ động và linh hoạt thích ứng trong môi trường doanh nghiệp năng động.
