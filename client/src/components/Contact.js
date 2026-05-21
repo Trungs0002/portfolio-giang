@@ -40,24 +40,48 @@ const Contact = () => {
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
         <div className="space-y-8">
           <div>
-            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Get in Touch</h2>
+            <h2 className="font-display text-4xl text-[#1a1c1a] mb-4">Liên Hệ</h2>
             <p className="font-body text-base text-[#504444] leading-relaxed">
-              I'm currently open to new opportunities, collaborations, or simply a conversation about business operations and sustainable strategies.
+              Tôi luôn sẵn sàng đón nhận các cơ hội thực tập, hợp tác công việc hoặc thảo luận về mảng vận hành đối soát dữ liệu và tối ưu hóa hệ thống.
             </p>
           </div>
           
           <div className="space-y-6">
-            <a className="flex items-center gap-4 group" href="mailto:hello@example.com">
+            <a className="flex items-center gap-4 group" href="mailto:minhgiang2357@gmail.com">
               <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455] group-hover:bg-[#d4a5a5] group-hover:text-white transition-all duration-300">
                 <span className="material-symbols-outlined">mail</span>
               </div>
               <div>
                 <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Email</span>
                 <span className="font-body text-base text-[#1a1c1a] group-hover:text-[#7b5455] transition-colors duration-300">
-                  hello@example.com
+                  minhgiang2357@gmail.com
                 </span>
               </div>
             </a>
+            
+            <a className="flex items-center gap-4 group" href="tel:0865112195">
+              <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455] group-hover:bg-[#d4a5a5] group-hover:text-white transition-all duration-300">
+                <span className="material-symbols-outlined">phone</span>
+              </div>
+              <div>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Số Điện Thoại</span>
+                <span className="font-body text-base text-[#1a1c1a] group-hover:text-[#7b5455] transition-colors duration-300">
+                  0865 112 195
+                </span>
+              </div>
+            </a>
+
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455]">
+                <span className="material-symbols-outlined">cake</span>
+              </div>
+              <div>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Ngày Sinh</span>
+                <span className="font-body text-base text-[#1a1c1a]">
+                  02/03/2005
+                </span>
+              </div>
+            </div>
             
             <a className="flex items-center gap-4 group" href="https://linkedin.com/in/minhgiang" target="_blank" rel="noreferrer">
               <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455] group-hover:bg-[#d4a5a5] group-hover:text-white transition-all duration-300">

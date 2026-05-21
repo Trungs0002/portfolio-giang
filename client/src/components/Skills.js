@@ -3,30 +3,29 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Operations & Logistics',
+      title: 'Nghiệp Vụ & Vận Hành',
       skills: [
-        { name: 'Supply Chain Management', level: 90 },
-        { name: 'Logistics Optimization', level: 85 },
-        { name: 'Process Streamlining', level: 92 },
-        { name: 'Administrative Planning', level: 88 }
+        { name: 'Quản lý hồ sơ & chứng từ thanh toán', level: 95 },
+        { name: 'Quản trị quan hệ đối tác', level: 92 },
+        { name: 'Tổ chức & điều phối sự kiện', level: 90 },
+        { name: 'Sử dụng tiếng Anh chuyên môn', level: 90 }
       ]
     },
     {
-      title: 'Human Resources & Leadership',
+      title: 'Công Cụ & Nền Tảng',
       skills: [
-        { name: 'Team Leadership', level: 95 },
-        { name: 'Conflict Resolution & Coordination', level: 90 },
-        { name: 'Organizational Behavior', level: 87 },
-        { name: 'Empathetic Communication', level: 94 }
+        { name: 'Microsoft PowerPoint / Excel / Word', level: 92 },
+        { name: 'Google Workspace', level: 95 },
+        { name: 'Canva (Thiết kế & Sáng tạo)', level: 88 }
       ]
     },
     {
-      title: 'Sustainable Branding',
+      title: 'Tư Duy & Kỹ Năng Mềm',
       skills: [
-        { name: 'Circular Economy Analysis', level: 88 },
-        { name: 'Brand Strategy & Positioning', level: 85 },
-        { name: 'Ethical Supply Chains', level: 90 },
-        { name: 'Corporate Social Responsibility (CSR)', level: 86 }
+        { name: 'Chủ động trong công việc', level: 95 },
+        { name: 'Tư duy tổ chức & sắp xếp công việc', level: 93 },
+        { name: 'Tư duy giải quyết vấn đề', level: 92 },
+        { name: 'Khả năng học hỏi & thích nghi nhanh', level: 95 }
       ]
     }
   ];
@@ -38,10 +37,10 @@ const Skills = () => {
     >
       <div className="max-w-[1200px] mx-auto space-y-16">
         <div className="text-center space-y-4">
-          <h2 className="font-display text-4xl text-[#1a1c1a]">Professional Skill Set</h2>
+          <h2 className="font-display text-4xl text-[#1a1c1a]">Năng Lực Chuyên Môn</h2>
           <div className="w-12 h-[1px] bg-[#7b5455] mx-auto"></div>
           <p className="font-body text-base text-[#504444] max-w-2xl mx-auto leading-relaxed">
-            A comprehensive overview of my capabilities in business administration, process operations, leadership, and ethical branding.
+            Tổng quan các kỹ năng nghiệp vụ vận hành, thành thạo công cụ văn phòng và các khía cạnh tư duy giải quyết vấn đề cốt lõi.
           </p>
         </div>
 

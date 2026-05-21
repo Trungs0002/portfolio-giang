@@ -4,24 +4,24 @@ const About = () => {
   const values = [
     {
       icon: 'account_tree',
-      title: 'Operations Mindset',
-      description: 'Streamlining processes for optimal efficiency and clarity.'
+      title: 'Vận hành & Đối soát',
+      description: 'Đối chiếu và xử lý dữ liệu giao dịch đa nền tảng với tính chính xác tuyệt đối.'
     },
     {
-      icon: 'diversity_3',
-      title: 'Coordination',
-      description: 'Facilitating seamless communication across diverse teams.',
+      icon: 'public',
+      title: 'Kinh doanh Quốc tế',
+      description: 'Tư duy hệ thống toàn cầu, được đào tạo bài bản bằng Tiếng Anh tại Đại học Ngoại thương.',
       offset: true
     },
     {
-      icon: 'eco',
-      title: 'Sustainability',
-      description: 'Building brand value through ethical and sustainable practices.'
+      icon: 'diversity_3',
+      title: 'Điều phối & Lãnh đạo',
+      description: 'Bí thư Chi đoàn năng động, quản trị kế hoạch và điều phối hoạt động tập thể xuất sắc.'
     },
     {
-      icon: 'trending_up',
-      title: 'Growth Strategy',
-      description: 'Developing actionable plans aligned with long-term vision.',
+      icon: 'receipt_long',
+      title: 'Hồ sơ & Chứng từ',
+      description: 'Khả năng quản lý và chuẩn bị hồ sơ thanh toán, làm việc với hơn 100+ đối tác chuyên nghiệp.',
       offset: true
     }
   ];
@@ -33,13 +33,13 @@ const About = () => {
     >
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-5 space-y-6">
-          <h2 className="font-display text-4xl text-[#1a1c1a]">About Me</h2>
+          <h2 className="font-display text-4xl text-[#1a1c1a]">Giới Thiệu</h2>
           <div className="w-12 h-[1px] bg-[#7b5455]"></div>
           <p className="font-body text-base text-[#504444] leading-relaxed">
-            I am a dedicated business student with a profound interest in the operational mechanics that drive successful organizations and the human resources that power them. My approach is rooted in structural thinking combined with a passion for sustainable brand development.
+            Tôi là sinh viên năm cuối chuyên ngành Kinh doanh quốc tế tại **Trường Đại học Ngoại thương (FTU)** với tư duy hệ thống sắc bén và thế mạnh nổi bật trong mảng vận hành & đối soát dữ liệu.
           </p>
           <p className="font-body text-base text-[#504444] leading-relaxed">
-            I believe in creating value through meticulous coordination, empathetic leadership, and a steadfast commitment to continuous improvement. My goal is to contribute to environments that prioritize efficiency alongside human well-being.
+            Bên cạnh khả năng xử lý hồ sơ chứng từ thanh toán chuyên nghiệp cho mạng lưới hơn 100+ đối tác, tôi còn sử dụng thành thạo tiếng Anh trong học tập và công việc, luôn chủ động và linh hoạt thích ứng trong môi trường doanh nghiệp năng động.
           </p>
         </div>
         <div className="lg:col-span-6 lg:col-start-7 grid grid-cols-1 sm:grid-cols-2 gap-4">

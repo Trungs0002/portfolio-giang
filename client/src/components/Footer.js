@@ -17,7 +17,7 @@ const Footer = () => {
           <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="https://linkedin.com/in/minhgiang" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="mailto:hello@example.com">
+          <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="mailto:minhgiang2357@gmail.com">
             Email
           </a>
           <a className="font-body text-base text-[#685b5c] hover:text-[#7b5455] transition-all hover:translate-y-[-2px] duration-200" href="https://instagram.com" target="_blank" rel="noreferrer">
