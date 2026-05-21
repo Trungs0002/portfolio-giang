@@ -17,8 +17,8 @@ const Experience = () => {
           <div className="relative pl-8 border-l border-[#7b5455]/20 space-y-12">
             
             {/* FTU */}
-            <div className="relative">
-              <div className="absolute -left-[38px] top-[6px] w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+            <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
+              <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - 2027
               </span>
@@ -28,7 +28,7 @@ const Experience = () => {
               <p className="font-body text-base text-[#685b5c] mb-2 font-semibold">
                 Quản trị Kinh Doanh Quốc Tế
               </p>
-              <p className="font-body text-sm text-[#504444] mb-2">
+              <p className="font-body text-sm text-[#504444] mb-3">
                 Chương trình Chất lượng cao giảng dạy 100% bằng tiếng Anh
               </p>
               <span className="inline-flex items-center px-3 py-1 bg-[#7b5455]/10 text-[#7b5455] rounded font-body text-xs font-semibold">
@@ -37,15 +37,15 @@ const Experience = () => {
             </div>
 
             {/* IELTS */}
-            <div className="relative">
-              <div className="absolute -left-[38px] top-[6px] w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
+            <div className="relative p-6 -ml-6 hover:bg-[#f4f3f1] rounded-xl transition-all duration-300">
+              <div className="absolute -left-[14px] top-8 w-3 h-3 bg-[#faf9f6] border-2 border-[#7b5455] rounded-full"></div>
               <span className="font-body text-xs font-semibold text-[#7b5455] tracking-widest uppercase mb-2 block">
                 2023 - 2025
               </span>
               <h3 className="font-display text-xl text-[#1a1c1a] mb-1">
                 Chứng Chỉ Tiếng Anh
               </h3>
-              <p className="font-body text-base text-[#685b5c] mb-2">
+              <p className="font-body text-base text-[#685b5c] mb-2 font-semibold">
                 IELTS 7.0 (Certified by IDP)
               </p>
               <p className="font-body text-sm text-[#504444] leading-relaxed">
