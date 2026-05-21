@@ -1,0 +1,82 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-container": "#4e4040",
+        "surface-container": "#efeeeb",
+        "inverse-on-surface": "#f2f1ee",
+        "on-tertiary-fixed-variant": "#524343",
+        "tertiary-fixed": "#f3dddd",
+        "surface-bright": "#faf9f6",
+        "secondary-container": "#f1dede",
+        "tertiary": "#6b5b5b",
+        "error-container": "#ffdad6",
+        "on-primary-fixed": "#2f1314",
+        "on-error-container": "#93000a",
+        "surface-variant": "#e3e2e0",
+        "surface-container-highest": "#e3e2e0",
+        "secondary": "#685b5c",
+        "on-secondary": "#ffffff",
+        "primary-fixed": "#ffdad9",
+        "secondary-fixed-dim": "#d4c2c3",
+        "surface-tint": "#7b5455",
+        "on-primary-container": "#5d3a3b",
+        "on-error": "#ffffff",
+        "surface-container-lowest": "#ffffff",
+        "on-surface-variant": "#504444",
+        "outline": "#827473",
+        "on-secondary-container": "#6f6161",
+        "surface-container-low": "#f4f3f1",
+        "error": "#ba1a1a",
+        "surface-dim": "#dbdad7",
+        "secondary-fixed": "#f1dede",
+        "on-background": "#1a1c1a",
+        "surface": "#faf9f6",
+        "primary-fixed-dim": "#ecbbba",
+        "on-secondary-fixed-variant": "#504444",
+        "on-surface": "#1a1c1a",
+        "on-secondary-fixed": "#23191a",
+        "surface-container-high": "#e9e8e5",
+        "tertiary-container": "#c0acac",
+        "background": "#faf9f6",
+        "inverse-primary": "#ecbbba",
+        "primary": "#7b5455",
+        "inverse-surface": "#2f312f",
+        "on-primary": "#ffffff",
+        "tertiary-fixed-dim": "#d7c2c1",
+        "on-tertiary-fixed": "#241919",
+        "outline-variant": "#d4c2c2",
+        "on-tertiary": "#ffffff",
+        "on-primary-fixed-variant": "#603d3e",
+        "primary-container": "#d4a5a5"
+      },
+      borderRadius: {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      spacing: {
+        "unit": "8px",
+        "container-max": "1200px",
+        "section-gap": "128px",
+        "margin-desktop": "64px",
+        "gutter": "24px",
+        "margin-mobile": "24px",
+        // Additional spacing utilities to map to layout easily
+        "unit-3": "24px",
+        "unit-8": "64px",
+      },
+      fontFamily: {
+        "display": ["'Bodoni Moda'", "serif"],
+        "body": ["Inter", "sans-serif"],
+      }
+    },
+  },
+  plugins: [],
+}
