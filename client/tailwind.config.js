@@ -73,7 +73,7 @@ module.exports = {
         "unit-8": "64px",
       },
       fontFamily: {
-        "display": ["'Bodoni Moda'", "serif"],
+        "display": ["'Playfair Display'", "serif"],
         "body": ["Inter", "sans-serif"],
       }
     },
