@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadCV = () => {
   return (
     <section 
-      className="px-6 md:px-16 py-32 bg-[#faf9f6]" 
+      className="px-6 md:px-16 py-32 bg-[#f4f3f1]" 
       id="cv"
     >
       <div className="max-w-[1000px] mx-auto bg-[#d4a5a5]/30 rounded-2xl p-12 text-center relative overflow-hidden shadow-[0_20px_60px_rgba(107,91,91,0.05)] border border-[#7b5455]/10">

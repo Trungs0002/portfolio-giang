@@ -82,6 +82,30 @@ const Contact = () => {
                 </span>
               </div>
             </div>
+
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455]">
+                <span className="material-symbols-outlined">location_on</span>
+              </div>
+              <div>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Location</span>
+                <span className="font-body text-base text-[#1a1c1a]">
+                  Hanoi, Vietnam
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455]">
+                <span className="material-symbols-outlined">event_available</span>
+              </div>
+              <div>
+                <span className="block font-body text-xs font-semibold text-[#504444] tracking-wider uppercase">Availability</span>
+                <span className="font-body text-base text-[#1a1c1a] leading-relaxed">
+                  Open to internships, collaborations, and operations-related opportunities
+                </span>
+              </div>
+            </div>
             
             <a className="flex items-center gap-4 group" href="https://www.linkedin.com/in/minh-giang-nguy%E1%BB%85n-a3780b410/" target="_blank" rel="noreferrer">
               <div className="w-12 h-12 rounded-full bg-[#f4f3f1] flex items-center justify-center text-[#7b5455] group-hover:bg-[#d4a5a5] group-hover:text-white transition-all duration-300">
