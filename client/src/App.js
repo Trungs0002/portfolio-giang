@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import CareerDirection from './components/CareerDirection';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -16,6 +17,7 @@ function App() {
       <main className="pt-[80px]">
         <Hero />
         <About />
+        <CareerDirection />
         <Projects />
         <Skills />
         <Experience />
