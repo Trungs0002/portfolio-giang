@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-7 space-y-6 lg:pt-2">
+        <div className="lg:col-span-7 space-y-6 lg:pt-4">
           <p className="font-body text-lg md:text-xl text-[#3b3232] font-light leading-relaxed">
             As an International Business student, I am developing my career toward business operations and e-commerce operations, where accuracy, coordination, and process efficiency are essential. My experience in transaction reconciliation, partner communication, document management, and academic training has shaped my interest in how businesses operate smoothly behind the scenes.
           </p>

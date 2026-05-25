@@ -137,8 +137,8 @@ const PersonalBranding = () => {
 
             {/* Large Image Container - Auto-expanding to match image height exactly */}
             <div 
-              className="relative w-full overflow-hidden rounded-2xl border border-[#7b5455]/10 shadow-[0_15px_45px_rgba(107,91,91,0.04)] bg-[#efeeeb] group min-h-[200px] md:min-h-[250px] cursor-zoom-in"
-              onClick={() => handleImageClick('/linkedin-banner.png', 'LinkedIn Banner')}
+              className="relative w-full overflow-hidden rounded-2xl border border-[#7b5455]/10 shadow-[0_15px_45px_rgba(107,91,91,0.04)] bg-[#efeeeb] group cursor-zoom-in"
+              onClick={() => handleImageClick('/4.png', 'LinkedIn Banner')}
             >
               {/* Premium hover glass overlay with zoom icon */}
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 z-30 flex items-center justify-center">
@@ -162,7 +162,7 @@ const PersonalBranding = () => {
               <img 
                 alt="LinkedIn Banner" 
                 className="w-full h-auto block relative z-10 transition-transform duration-700 group-hover:scale-[1.01]" 
-                src="/linkedin-banner.png"
+                src="/4.png"
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
             </div>
